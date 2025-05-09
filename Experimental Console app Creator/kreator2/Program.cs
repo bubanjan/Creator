@@ -14,8 +14,7 @@ namespace ConsoleApp6
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine("Welcome to my experimental Console application Creator");
             Thread.Sleep(1);
-            Console.WriteLine("Console will paint one apstract painting");
-            Console.WriteLine("To stop the process just press left mouse button, to start again press F5 button");
+            Console.WriteLine("Console will paint apstract painting");        
             Thread.Sleep(1);
             Console.WriteLine("Novak Bubanja bubanjanovak@gmail.com");
             Console.WriteLine();
@@ -68,8 +67,6 @@ namespace ConsoleApp6
                 Console.ResetColor();
                 
                 Thread.Sleep(1);
-
-
             }
         }
     }
